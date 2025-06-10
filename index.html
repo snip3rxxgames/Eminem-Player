@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eminem Music</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Eminem Playlist</h1>
+    <ul class="song-list">
+      <li data-src="songs/lose_yourself.mp3">Lose Yourself</li>
+      <li data-src="songs/slim_shady.mp3">Slim Shady</li>
+      <li data-src="songs/stan.mp3">Stan</li>
+      <li data-src="songs/not_afraid.mp3">Not Afraid</li>
+      <li data-src="songs/venom.mp3">Venom</li>
+      <li data-src="songs/encore.mp3">Encore</li>
+      <li data-src="songs/curtain_call.mp3">Curtain Call</li>
+      <li data-src="songs/no_love.mp3">No Love</li>
+      <li data-src="songs/smack_that.mp3">Smack That</li>
+    </ul>
+  </div>
+
+  <div class="player" id="player">
+    <audio id="audio" src=""></audio>
+    <div class="controls">
+      <button id="play-pause">▶</button>
+      <input type="range" id="seek" value="0" min="0" step="1" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
